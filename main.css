@@ -1,42 +1,52 @@
-header {
-  background-color: rgb(180, 1, 1);
-  margin-bottom: 25px;
-  padding-bottom: 10px;
-  padding-top: 10px;
-  padding-left: 15%;
-  font-family: Arial;
+body {
+  font-family: Arial, sans-serif;
+  max-width: 800px;
+  margin: 0px auto;
+  padding: 10px;
+}
+
+.source-info {
+  background-color: darkgray;
   font-size: 18px;
+  margin: 0px 0px 15px 0px;
+  border: black solid 2px;
+  padding: 10px;
 }
 
 img {
-  width: 70%;
-  margin-left: auto;
-  margin-right: auto
+  width: 100%;
 }
 
+.lead-caption {
+  font-size: 14px;
+  margin: 5px 0px;
+  line-height: 14px;
+}
 
 h1 {
-  font-family: Arial;
   font-style: italic;
   font-size: 40px;
-  margin-left: 15%;
-  margin-right: 15%
 }
 
-
-p {
-  font-family: Arial;
-  font-size: 20px;
-  margin-left: 15%;
-  margin-right: 15%;
-}
-
-.chart {
-  width: 50%;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 30px;
+h2 {
+  font-size: 24px;
   margin-bottom: 30px;
 }
 
+p {
+  font-size: 20px;
+  line-height: 26px;
+}
 
+.other-image {
+  max-width: 600px;
+  display: block;
+  margin: 30px auto 5px auto;
+}
+
+.other-caption {
+  font-size: 14px;
+  line-height: 14px;
+  max-width: 600px;
+  margin: 5px auto;
+}
