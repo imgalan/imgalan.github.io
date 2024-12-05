@@ -1,0 +1,16 @@
+body {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  
+  p {
+    font-family: 'Times New Roman', Times, serif;
+    font:size: 50px;
+  }
+  
+.headerfont {
+    font-family: 'Times New Roman', Times, serif;
+    
+  }
+  
+  /* Remove the following style for div to remove the border. */
